@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>** M O M E N T U M **</title>
+    </head>
+    <body>
+        <div id="welcome">
+            <form class="hidden login-form">
+                <img src="img/01.png" />
+                <input type="text" placeholder="What is your name?" required maxlength="4" />
+                <input id="btn" type="submit" value="Enter" />
+            </form>
+        </div>
+        <div id="hello" class="mm">
+            <h3 class="hidden" id="greeting"></h3>
+        </div>
+        <div id="weather">
+            <span id="ci" class="hidden"></span>
+            <span id="matdo" class="hidden"></span>
+        </div>
+
+        <h3 id="clock" class="hidden"></h3>
+
+        <div id="memo" class="mm">
+            <span id="toto" class="hidden">🤎TO DO LIST</span>
+            <form id="todo-form" class="hidden">
+                <input id="taktak" type="text" placeholder="Write a To do and Press Enter" required />
+            </form>
+            <ul id="todo-list" class="hidden"></ul>
+        </div>
+
+        <a id="plss" class="hidden" href="https://nomadcoders.com/" target="_blank">
+            <img id="myimage" src="img/04.png" alt="Let's study!" />
+        </a>
+
+        <a id="pls" class="hidden" href="https://www.youtube.com/" target="_blank">
+            <img id="myimagee" src="img/05.png" alt="Youtube~" />
+        </a>
+
+        <a id="plsss" class="hidden" href="https://www.google.com/" target="_blank">
+            <img id="myimageee" src="img/06.png" alt="google" />
+        </a>
+
+        <a id="plssss" class="hidden" href="https://www.netflix.com/" target="_blank">
+            <img id="myimageeee" src="img/07.png" alt="netflix" />
+        </a>
+
+        <a id="plsssss" class="hidden" href="http://www.ssg.com/" target="_blank">
+            <img id="myimageeeee" src="img/08.png" alt="emart" />
+        </a>
+
+        <div>
+            <button id="bttn" class="hidden">wanna change your mood?</button>
+        </div>
+        <div id="quote" class="hidden mm">
+            <span></span>
+            <span></span>
+        </div>
+
+        <script src="js/clock.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/weather.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/bgcolor.js"></script>
+        <script src="js/quote.js"></script>
+    </body>
+</html>

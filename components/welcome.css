@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(197, 118, 81, 0.801);
+}
+
+.hidden {
+    display: none;
+}
+
+#welcome {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+}
+
+#login-form {
+    margin-left: 19px;
+}
+
+input {
+    border: 3px solid rgb(88, 47, 31);
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+#btn {
+    background-color: rgb(255, 195, 127);
+    color: rgb(78, 39, 39);
+}
+input:hover {
+    background-color: rgb(255, 195, 127);
+}
+
+input:focus {
+    outline: 3px solid wheat;
+    background-color: rgb(255, 195, 127);
+}
+
+#btn:active {
+    background-color: rgb(194, 127, 72);
+    color: wheat;
+}

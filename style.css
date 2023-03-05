@@ -1,0 +1,180 @@
+@import 'components/welcome.css';
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#memo::-webkit-scrollbar {
+    width: 20px;
+}
+
+#memo::-webkit-scrollbar-track {
+    -webkit-border-radius: 20px;
+    background-color: #eed5be;
+    height: 100px;
+}
+
+#memo::-webkit-scrollbar-thumb {
+    background-color: #df8383a1;
+    border-radius: 5px;
+}
+
+#hello {
+    position: fixed;
+    display: flex;
+    width: 99%;
+    flex-direction: row;
+    justify-content: center;
+    top: 40px;
+    font-size: 50px;
+    color: wheat;
+    border: 5px solid black;
+    background-color: #b46e59;
+    border-radius: 10px;
+}
+
+#greeting {
+    width: 600px;
+    justify-content: center;
+}
+
+#clock {
+    color: wheat;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 100px;
+    left: 60px;
+}
+
+#weather {
+    position: relative;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 90px;
+    top: 140px;
+}
+
+#matdo {
+    position: fixed;
+    color: rgb(212, 169, 151);
+    right: 180px;
+}
+
+#ci {
+    color: wheat;
+    position: fixed;
+    right: 30px;
+}
+
+button {
+    background-color: wheat;
+    color: rgb(145, 53, 25);
+    font-weight: bold;
+}
+
+#bttn {
+    display: flex;
+    position: fixed;
+    top: 10px;
+    font-size: 20px;
+    color: rgb(145, 53, 25);
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+#taktak {
+    width: 480px;
+    height: 50px;
+    background-color: rgb(233, 159, 125);
+}
+
+#taktak:focus {
+    background-color: rgb(247, 183, 183);
+    color: black;
+}
+
+#memo {
+    padding: 20px 20px 20px 20px;
+    background-color: wheat;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    height: 50%;
+    width: 30%;
+    border-radius: 20px;
+    margin: 300px 1100px;
+    position: fixed;
+    overflow: auto;
+    overflow-x: hidden;
+    border: 5px solid black;
+}
+
+#todo-form {
+    position: relative;
+}
+
+#toto {
+    font-size: 30px;
+}
+
+#myimage {
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    margin: 300px 100px;
+}
+
+#myimagee {
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    margin: 350px 470px;
+}
+
+#myimageee {
+    cursor: pointer;
+    display: flex;
+    position: fixed;
+    margin: 340px 750px;
+}
+
+#myimageeee {
+    cursor: pointer;
+    display: flex;
+    width: 150px;
+    position: fixed;
+    margin: 550px 300px;
+}
+
+#myimageeeee {
+    cursor: pointer;
+    display: flex;
+    width: 150px;
+    position: fixed;
+    margin: 580px 600px;
+}
+
+#quote {
+    padding: 30px;
+    border: 4px dashed rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 40%;
+    height: 80px;
+    display: block;
+    justify-content: center;
+    position: fixed;
+    margin: 800px 50px;
+    background-color: wheat;
+    font-weight: bold;
+}
+
+.mm {
+    visibility: hidden;
+}
+
+#todo-list {
+    font-size: 20px;
+    font-weight: bold;
+}
